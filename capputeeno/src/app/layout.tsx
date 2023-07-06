@@ -1,7 +1,6 @@
 import './globals.css';
 import { Header } from './Components/header';
 import { Saira } from 'next/font/google';
-import { FilterContextProvider } from './Context/filter-context';
 import { DefaultProviders } from './Components/default-providers';
 
 const saira = Saira({
