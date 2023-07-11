@@ -1,7 +1,7 @@
-import './globals.css';
-import { Header } from './Components/header';
+import { Header } from '@/Components/header';
+import '../globals.css';
 import { Saira } from 'next/font/google';
-import { DefaultProviders } from './Components/default-providers';
+import { DefaultProviders } from '@/Components/default-providers';
 
 const saira = Saira({
   weight: ['300', '400', '500', '600'],

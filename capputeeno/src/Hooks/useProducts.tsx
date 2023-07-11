@@ -1,9 +1,9 @@
-import { ProductsFetchResponse } from '@/app/Types/products-response';
 import axios, { AxiosPromise } from 'axios';
 import { useQuery } from 'react-query';
 import { useFilter } from './useFilter';
 import { mountQuery } from '../Utils/graphql-filters';
 import { useDeferredValue } from 'react';
+import { ProductsFetchResponse } from '@/Types/products-response';
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL as string;
 
