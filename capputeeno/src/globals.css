@@ -1,5 +1,6 @@
 :root {
   --border-radius: 12px;
+  --border-color: #a8a8b3;
   --logo-color: #5d5d6d;
   --bg-primary: #f0f0f5;
   --bg-secondary: #f3f5f6;
@@ -8,7 +9,9 @@
   --shapes-dark: #09090a;
   --delete-color: #de3838;
   --orange-low: #ffa585;
+  --green-btn: #51b853;
   --shapes: #dce2e6;
+  --shapes-light: #f5f5fa;
   --secondary-text: #617480;
 }
 
